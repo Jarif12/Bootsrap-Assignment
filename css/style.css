@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Custom Search Bar */
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar i {
+  position: absolute;
+  top: 50%;
+  left: 235px;
+  transform: translateY(-48%);
+  color: #746f6f;
+}
+
+.custom-input {
+  padding: 8px 20px;
+  border: 1px solid #746f6f45;
+}
+/* Custom Bars */
+.custom-size {
+  position: absolute;
+  left: 59px;
+  font-size: 21px;
+}
+
+.custom-size i {
+  height: 40px;
+  width: 40px;
+  background-color: #f08f64;
+  border-radius: 47px;
+  padding: 10px 11px;
+}
+/* Cart Notification */
+.cart-badge {
+  position: absolute;
+  top: 2px;
+  right: -26px;
+  font-size: 11px;
+  background-color: #dc3545;
+}

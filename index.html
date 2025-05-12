@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kivzo</title>
+    <!-- Favion -->
+    <link rel="icon" href="/images/Kivzon.png" type="image/x-icon" />
+    <!-- Internal CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css"
+    />
+    <!-- Google Font (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- External CSS (Bootstrap) -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <div
+      class="container pt-2 py-3 navbar-expand-lg navbar-light bg-white shadow rounded"
+    >
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="me-1" src="/images/logo.png"width="40" alt="navbar logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-2">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">BUSINESS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">HEALTH NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">WORLD NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SPORTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CULTURE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SUBSCRIBE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CART (0)</a>
+            </li>
+          </ul>
+          <div class="px-5  d-flex align-items-center search-bar">
+            <input
+              class="rounded-5 border-1 custom-input"
+              type="search"
+              placeholder="Search here"
+            />
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="custom-size">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </div>
+    <!-- Navbar End -->
+    <!-- Hero Section Start -->
+    <section class="py-5 bg-white">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-7">
+            <img
+              src="/images/bg-img.png"
+              class="img-fluid rounded-1"
+              alt="Feature-image"
+            />
+            <!-- Left Side Content -->
+            <div class="card-body py-4">
+              <h3 class="card-title fs-2">
+                Revolutionizing manufacturing emerging trends shaping the
+                industry
+              </h3>
+              <div class="text-mute d-block small py-4">
+                <span class="bg-danger text-white rounded p-1">World News</span>
+                <span class="px-2">— JAN 25, 2025</span>
+              </div>
+            </div>
+          </div>
+          <!-- Right Side Content -->
+          <div class="col-lg-5">
+            <div class="border-bottom pb-2 mb-3">
+              <div class="text-muted d-block">
+                <span class="bg-warning text-white rounded p-1">Business</span>
+                <span class="text-muted ms-2">— FEB 10, 2025</span>
+                <h5 class="fw-semibold py-3 h5">
+                  Adapting business strategies to meet changing demands
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2 mb-3">
+              <div class="text-muted d-block">
+                <span class="bg-danger text-white rounded p-1">Technology</span>
+                <span class="text-muted ms-2">— FEB 10, 2025</span>
+                <h5 class="fw-semibold py-3 h5">
+                  Smart homes revolution how it is transforming living spaces
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2 mb-3">
+              <div class="text-muted d-block">
+                <span class="bg-primary text-white rounded p-1">Culture</span>
+                <span class="text-muted ms-2">— JAN 27, 2025</span>
+                <h5 class="fw-semibold py-3 h5">
+                  The power of art in connecting and expressing cultural
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2 mb-3">
+              <div class="text-muted d-block">
+                <span class="bg-success text-white rounded p-1"
+                  >Health News</span
+                >
+                <span class="text-muted ms-2">— JAN 27, 2025</span>
+                <h5 class="fw-semibold py-3 h5">
+                  How artificial intelligence & machine learning are changing
+                  the field
+                </h5>
+              </div>
+            </div>
+            <div class="border-bottom pb-2 mb-3">
+              <div class="text-muted d-block">
+                <span class="bg-info text-white rounded p-1">Sports</span>
+                <span class="text-muted ms-2">— JAN 27, 2025</span>
+                <h5 class="fw-semibold py-3 h5">
+                  The influence of youth sports programs on developing future
+                  champions
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+    <!-- List Section Start -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 g-3">
+          <div class="col">
+            <div class="rounded">
+              <img
+                src="/images/list-img1.png"
+                class="img-fluid"
+                alt="Business"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="rounded">
+              <img
+                src="/images/list-img2.png"
+                class="img-fluid"
+                alt="Business"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="rounded">
+              <img
+                src="/images/list-img3.png"
+                class="img-fluid"
+                alt="Business"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="rounded">
+              <img
+                src="/images/list-img4.png"
+                class="img-fluid"
+                alt="Business"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <div class="rounded">
+              <img
+                src="/images/list-img5.png"
+                class="img-fluid"
+                alt="Business"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- List Section End -->
+    <!-- Stories Section Start -->
+    <section class="py-4">
+      <div class="container pb-lg-5">
+        <!-- Left Side para -->
+        <div class="row align-items-center g-5">
+          <div class="col-lg-4 rounded">
+            <h6>Stories That Matter</h6>
+            <h4 class="border-bottom fs-2 pb-5">EDITOR'S PICK</h4>
+            <div class="md-4 py-2">
+              <span>CULTURE</span>
+              <h3 class="fs-5 border-bottom pb-4">
+                The power of art in connecting and expressing cultural
+              </h3>
+            </div>
+            <div class="md-4 py-2">
+              <span>HEALTH NEWS</span>
+              <h3 class="fs-5 border-bottom pb-4">
+                How artificial intelligence & machine learning are changing the
+                field
+              </h3>
+            </div>
+            <div class="md-4 py-2">
+              <span>SPORTS</span>
+              <h3 class="fs-5 pb-4">
+                The influence of youth sports programs on developing future
+                champions
+              </h3>
+            </div>
+          </div>
+          <!-- Right Side Image -->
+          <div class="col-lg-8">
+            <img
+              src="/images/bg-stories.png"
+              class="img-fluid rounded shadow"
+              width="100%"
+              alt="Editor's Pick"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Stories Section End -->
+    <!-- Latest News Start -->
+    <section class="py-5" style="background-color: #f08f64">
+      <div class="container">
+        <!-- Left Side -->
+        <h2 class="py-3 fs-2">LATEST NEWS</h2>
+        <div class="row g-4 align-items-center">
+          <div class="col-lg-4">
+            <img
+              src="/images/bg-news1.png"
+              class="img-fluid"
+              alt="Technology"
+            />
+            <div class="text-mute py-2">
+              <span class="text-black">TECHNOLOGY</span>
+              <span><span class="px-2">—</span> JAN 25, 2025</span>
+              <h5 class="py-2">
+                Future-focused an in-depth look at cutting- edge tech trends
+              </h5>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <img src="/images/bg-news2.png" class="img-fluid" alt="Business" />
+            <div class="text-mute py-2">
+              <span class="text-black">BUSINESS</span>
+              <span><span class="px-2">—</span> JAN 25, 2025</span>
+              <h5 class="py-2">
+                Understanding the interconnectedness of events shaping our world
+                today
+              </h5>
+            </div>
+          </div>
+          <!-- Right Side -->
+          <div class="col-md-4 px-3">
+            <h5 class="d-flex justify-content-between pb-2">
+              More News
+              <a href="" class="fs-6 text-decoration-none text-black"
+                >VIEW ALL ⟶</a
+              >
+            </h5>
+            <div class="d-flex">
+              <img
+                src="/images/bg-news3.png"
+                class="rounded"
+                width="160.44"
+                height="120"
+                alt=""
+              />
+              <div class="d-block px-4 py-2">
+                <span class="text-muted small">BUSINESS</span>
+                <span class="text-muted"
+                  ><span class="px-1">—</span>FEB 10, 2025</span
+                >
+                <h5 class="py-2 fw-semibold small">
+                  Adapting business strategies to meet changing demands
+                </h5>
+              </div>
+            </div>
+            <div class="pt-4 d-flex">
+              <img
+                src="/images/bg-news4.png"
+                class="rounded"
+                width="160.44"
+                height="120"
+                alt=""
+              />
+              <div class="d-block px-3 py-2">
+                <span class="text-muted small">TECHNOLOGY</span>
+                <span class="text-muted"
+                  ><span class="px-1">—</span>FEB 10, 2025</span
+                >
+                <h5 class="py-2 fw-semibold small">
+                  Smart homes revolution how it is transforming living spaces
+                </h5>
+              </div>
+            </div>
+            <div class="pt-4 d-flex">
+              <img
+                src="/images/bg-news5.png"
+                class="rounded"
+                width="160.44"
+                height="120"
+                alt=""
+              />
+              <div class="d-block px-4 py-2">
+                <span class="text-muted small">CULTURE</span>
+                <span class="text-muted"
+                  ><span class="px-1">—</span>FEB 10, 2025</span
+                >
+                <h5 class="py-2 fw-semibold small">
+                  The power of art in connecting and expressing cultural
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Latest News End -->
+    <!-- Technology Section Start -->
+    <section class="py-5">
+      <div class="container">
+        <!-- Left Side -->
+        <div class="row g-4">
+          <h2
+            class="d-flex align-items-center justify-content-between my-0 pt-5 pe-0"
+          >
+            TECHNOLOGY
+            <a href="" class="fs-6 text-decoration-none text-black"
+              >VIEW ALL ⟶</a
+            >
+          </h2>
+          <div class="col-md-6 col-lg-4 d-flex flex-column g-4">
+            <img src="/images/bg-news4.png" alt="" />
+            <div class="text-mute py-2">
+              <span class="text-black small">TECHNOLOGY</span>
+              <span><span class="px-2">—</span> JAN 25, 2025</span>
+              <h5 class="py-2">
+                Smart homes revolution how iot is transforming living spaces
+              </h5>
+            </div>
+            <img src="/images/tec-img3.png" class="rounded" alt="" />
+            <div class="text-mute py-2">
+              <span class="text-black small">TECHNOLOGY</span>
+              <span><span class="px-2">—</span> JAN 25, 2025</span>
+              <h5 class="py-2">
+                Cybersecurity at risk the growing threat of digital breaches
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 d-flex flex-column g-4">
+            <img src="/images/bg-news4.png" class="rounded" width="" alt="" />
+            <div class="text-mute py-2">
+              <span class="text-black small">TECHNOLOGY</span>
+              <span><span class="px-2">—</span> JAN 25, 2025</span>
+              <h5 class="py-2">
+                Future-focused an in-depth look at cutting- edge tech trends
+              </h5>
+            </div>
+            <img src="/images/tec-img4.png" class="rounded" alt="" />
+            <div class="text-mute py-2">
+              <span class="text-black small">TECHNOLOGY</span>
+              <span><span class="px-2">—</span> JAN 25, 2025</span>
+              <h5 class="py-2">
+                Transforming entertainment, education & beyond
+              </h5>
+            </div>
+          </div>
+          <!-- Right Side -->
+          <div class="col-5 col-lg-4">
+            <img
+              src="/images/image.png"
+              class="img-fluid position-absolute"
+              width="430"
+              alt=""
+            />
+            <img
+              src="/images/bg-img-tec.png"
+              class="rounded"
+              height="700"
+              width="430"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Technology Section End -->
+    <!-- CTA Start -->
+    <section
+      class="py-5 container rounded"
+      style="
+        background-image: url(/images/bg-image.png);
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+      "
+    >
+      <div class="text-white position-relative" style="min-height: 350px">
+        <div
+          class="position-absolute bottom-0 start-0 end-0 pb-3 px-md-5 d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center rounded"
+          style="background: rgba(70, 67, 67, 0.6)"
+        >
+          <div class="mb-3 mb-md-0">
+            <h4 class="fw-bold mt-3">
+              Turning ideas into impactful Ad campaigns
+            </h4>
+            <p class="mb-0 fs-6">
+              Partner with us to take your brand to the next level. Our platform
+              offers prime advertising opportunities <br />
+              designed to connect your business with a diverse & engaged
+              audience.
+            </p>
+          </div>
+          <a href="#" class="btn btn bg-warning fw-semibold rounded-5 px-3">
+            ADVERTISE WITH US <span class="ps-2">⟶</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- CTA End -->
+    <!-- Our Team Section Start -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="d-flex align-items-center justify-content-between pt-5">
+          OUR EDITORIAL TEAM
+          <a href="" class="fs-6 text-decoration-none text-black">VIEW ALL ⟶</a>
+        </h2>
+        <div class="row g-4 py-3">
+          <div class="col-12 col-md-4">
+            <img
+              src="/images/tmb-1.png"
+              class="img-fluid rounded"
+              alt="member-1"
+            />
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              src="/images/tmb-2.png"
+              class="img-fluid rounded"
+              alt="member-2"
+            />
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              src="/images/tmb-3.png"
+              class="img-fluid rounded"
+              alt="member-3"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our Team Section End -->
+    <!-- Podcast Section Start -->
+    <section class="py-4">
+      <div class="container">
+        <h1 class="d-flex align-items-center justify-content-between pt-5">
+          PODCAST
+          <a href="#" class="fs-6 text-decoration-none text-black"
+            >VIEW ALL ⟶</a
+          >
+        </h1>
+        <div class="row g-4 pt-4">
+          <div class="col-lg-7">
+            <img
+              src="/images/podmain-1.png"
+              class="img-fluid"
+              alt="MARVIN MCKINNEY"
+            />
+          </div>
+          <div class="col-lg-5 d-flex flex-column gap-4">
+            <img src="/images/podfetre-2.png" class="img-fluid" alt="" />
+            <img
+              src="/images/podfetre-3.png"
+              class="img-fluid"
+              style="height: 260px"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Podcast Section End -->
+    <!-- Footer Start -->
+    <footer class="bg-black text-light pt-5 pb-3 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10">
+            <p class="mb-3 fs-4">
+              Stay updated with the latest news, stories, and insights from
+              around the globe.
+            </p>
+            <form
+              class="d-flex gap-2 border-bottom pb-5 border-opacity-10"
+              role="searchbox"
+            >
+              <input
+                class="bg-black form-control w-50 border-white rounded-5 border-opacity-2 bg-white mt-2"
+                type="email"
+                placeholder="Enter your e-mail..."
+              />
+              <button
+                class="rounded-5 px-3 py-3 fw-semibold mt-2"
+                style="font-size: 15px; background-color: #f08f64"
+                type="submit"
+              >
+                SUBSCRIBE NOW
+              </button>
+            </form>
+          </div>
+          <!-- PAGES -->
+          <div class="col-md-3 mb-4 pt-5">
+            <h6 class="pb-2">PAGES</h6>
+            <ul style="list-style: none; padding: 0">
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#">About us</a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#"
+                  >Categories</a
+                >
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#">News</a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#">Authors</a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#">Podcast</a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#"
+                  >Newsletter Plans</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- CATEGORIES -->
+          <div class="col-md-3 mb-4 pt-5">
+            <h6 class="pb-2">CATEGORIES</h6>
+            <ul style="list-style: none; padding: 0">
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#">Business</a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#"
+                  >Health News</a
+                >
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#"
+                  >World News</a
+                >
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#">Sports</a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#">Culture</a>
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#"
+                  >Technology</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- RESOURCES -->
+          <div class="col-md-2 col-lg-2 mb-2 mb-md-0 pt-5">
+            <h6 class="pb-2">RESOURCES</h6>
+            <ul style="list-style: none; padding: 0">
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#"
+                  >Contact us</a
+                >
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#"
+                  >Advertise</a
+                >
+              </li>
+              <li class="mb-2">
+                <a class="text-decoration-none text-white" href="#"
+                  >Changelog</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Right Section Socials -->
+          <div class="col-md-4 mb-3 mt-lg-1 mt-md-1 px-lg-1 px-md-5 pt-4">
+            <div class="d-flex flex-column pt-2">
+             <ul class="list-unstyled ">
+              <li class="py-2">
+                <a class="text-decoration-none text-white" href="#">
+                <i class="bi bi-facebook"></i>
+                Facebook
+              </a>
+            </li>
+              <li class="py-2"><a class="text-decoration-none text-white" href="#">
+                <i class="bi bi-youtube"></i>
+                Youtube
+              </a>
+            </li>
+              <li class="py-2"><a class="text-decoration-none text-white" href="#">
+                <i class="bi bi-instagram"></i>
+                Instagram
+              </a>
+            </li>
+              <li class="py-2"><a class="text-decoration-none text-white" href="#">
+                <i class="bi bi-twitter-x"></i>
+                Twitter
+              </a>
+            </li>
+              <li class="py-2"><a class="text-decoration-none text-white" href="#">
+                <i class="bi bi-reddit"></i>
+                Reddit
+              </a>
+            </li>
+              <li class="py-2"><a class="text-decoration-none text-white" href="#">
+                <i class="bi bi-rss"></i>
+                RSS.com
+              </a>
+            </li>
+             </ul>
+            </div>
+          </div>
+        </div> 
+        <!-- Bottom Row -->
+        <div class="row pt-5 pb-2">
+          <div class="col-md-6 d-flex align-items-center gap-5 gap-md-3 gap-sm-4">
+            <img src="/images/footerlogo.png" height="30" alt="Logo" />
+            
+            <a class="text-decoration-none text-white small" href="#"
+              >Privacy Policy</a
+            >
+            <a class="text-decoration-none text-white small" href="#"
+              >Terms & Conditions</a
+            >
+            <a class="text-decoration-none text-white small" href="#">License</a>
+            
+      </div>
+      <!-- Copyright -->
+      <div class="col-md-6 text-md-end text-center small text-light mt-3 mt-md-0 mt-sm-4 align-content-md-center">
+        © 2025 Kivzo. Designed by Zarif. All rights reserved.
+    </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+      integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
